@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.conteiner{
+    margin: 0 auto;
+    width: 80%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../Img/NOVIA-FONDO-HEADER.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+    clip-path: polygon(100% 73%, 51% 100%, 0 73%, 0 0, 100% 0);
+    margin-bottom: 200px;
+}
+
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.header__brand a img{
+    width: 100px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 15px;
+
+}
+
+.navbar ul li a{
+    color: #ffffff;
+    font-weight: 600;
+    transition-property: font-size;
+    transition-duration: 500ms;
+}
+
+/* .navbar ul li a#init{
+    border: 1px solid #7cfff5;
+    padding: 10px 20px;
+} */
+.navbar ul li a:hover{
+    color: #7cfff5;
+    font-size: 23px;
+}
+
+.Welcomen__content{
+    text-align: center;
+}
+
+.Welcomen__txt{
+    text-align: center;
+}
+
+.Welcomen__txt h2{
+    margin-bottom: 20px;
+    color: #7cfff5;
+    font-size: 23px;
+}
+
+.Welcomen__txt p{
+    color: white;
+    font-size: 15px;
+    margin: 0 30%;
+    padding-bottom: 50px;
+}
+
+.btn_1{
+    color: black;
+    background-color: #7cfff5;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    transition-property: border-radius;
+}
+
+.btn_1:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: #7cfff5;
+    border-radius: 0;
+    transition-duration: 1000ms;
+}
+
+.abaut-us{
+
+}
+
+
+.abaut-us{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.abaut-us__txt{
+    width: 50%;
+    
+}
+
+.abaut-us__txt h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.abaut-us__txt p{
+    font-size: 17px;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.abaut-us__txt hr{
+    background-color: #7cfff5;
+    height: 5px;
+    border: 1px solid #7cfff5;
+}
+
+.galery{
+    margin-bottom: 200px;
+}
+
+.galery__content{
+    display: flex;
+}
+
+.galery___img-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0px;
+    width: 100%;
+}
+
+.galery__img img{
+    width: 100%;
+    border-radius: 10px;
+} 
+
+.products{
+    margin-bottom: 200px;
+}
+
+.products__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.products__group{
+    align-items: center;
+    text-align: center;
+}
+
+.products__img img{
+    width: 100%;
+}
+
+.products__img img.img-1{
+    width: 75%;
+}
+
+.products__txt hr{
+    height: 5px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.products__txt h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.products__txt p{
+    color: rgb(85, 84, 84);
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+.products__txt span{
+    font-weight: 800;
+}
+
+.btn_2{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #FBBC89;
+    color: black;
+    padding: 10px 30px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition-property: border-radius;
+}
+
+.btn_2:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0;
+    transition-duration: 1000ms;
+}
+
+
+/* boton de whatsapp flotante */
+.botton-whatsapp{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.botton-whatsapp a{
+    display: block;
+    background-color: #25d366;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.botton-whatsapp img {
+    width: 30px;
+}
+
+.footer{
+    background-color: #55718a;
+    padding: 70px 50px;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__brand a img{
+    width: 50%;
+}
+
+.nvabar__footer{
+    text-align: center;
+    font-size: 16px;
+}
+
+.nvabar__footer ul li a{
+    display: inline-block;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.nvabar__footer ul li a:hover{
+    color: #7cfff5;
+}
+
+.networks a{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.networks a:hover{
+    color: #7cfff5;
+}
+
